@@ -1,8 +1,8 @@
 body {
     background: #3b304a;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Notable', sans-serif;
     color: #6b6278;
-    text-shadow: 2px 2px black;
+    text-shadow: 1.5px 1.5px black;
 }
 
 
@@ -13,7 +13,6 @@ body {
     background:#b99ae6 ;
     height:50px;
     border-radius: 50px;
-    
     padding: 10px;
     
     
