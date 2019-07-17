@@ -21,21 +21,21 @@ var connect =mysql.createConnection({
 connect.connect(function(error){
     if (error){
         console.log('Error');
-    }else {
+    } else {
         console.log('Connected');
     }
 });
 
-app.get('/', function(req, res){
+mysql.get('/', function(req, res){
     connection.query("SELECT * FROM homeDB", function(error, rows, fields){
         if (error){
             console.log('Error in the query');
-        }else {
+        } else {
             console.log('Successful Query');
         }
     });
 })
 
-app.listen(8080);
+mysql.listen(8080);
 
 
