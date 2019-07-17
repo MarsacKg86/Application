@@ -8,12 +8,12 @@ body {
 
 .search {
     position: absolute;
-    top: 45%;
+    top: 65%;
     transform: translate('50%, -50%');
     background:#b99ae6 ;
     height:50px;
     border-radius: 50px;
     padding: 10px;
-    
+    font-family: 'Permanent Marker', cursive;
     
 }
