@@ -1,26 +1,13 @@
 body {
     background: #afadb3;
-    /* background: #3b304a; */
     font-family: 'Alegreya SC', serif;
     color:#47424f;
-    /* color: #6b6278; */
     text-shadow: 1px 1px black;
 }
 
-.userSubmit {
-    position: absolute;
-    top: 10%;
-    transform: translate('50%, -50%');
-    background:#292c30;
-    height:50px;
-    border-radius: 50px;
-    padding: 25px;
-    font-family: 'Alegreya SC', serif;
-}
 
-.userPassword{
+.createUserPassword{
     position: absolute;
-    top: 35%;
     transform: translate('50%, -50%');
     background:#292c30;
     height:50px;
@@ -32,7 +19,7 @@ body {
 .search {
     
     position: ;
-    /* text-align: center; */
+   
     font-family: 'Alegreya SC', serif;
 }
 

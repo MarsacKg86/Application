@@ -8,13 +8,21 @@
     <title>User Page</title>
 </head>
 <body>
-        <h1>Username</h1>
-        <form action="/submit" method="POST">
-          <div class="userSubmit">
+        <h1>Username & Password </h1>
+        <form name="myform" action="./login.html" method="POST">
+          
+          <div class="createUserPassword">
           <input type="text" id="username" name="username"/>
-          <input type="submit" value="Submit">
+          <input type="text" id="password" name="password"/>
           </div>
+          
         </form>
+        
+        <a href="./login.html?username=()">
+          <button type="button" style="position: absolute; top: 15%; left: 22%;">Submit</button>
+        </a>
+        
+        
 
 </body>
 
