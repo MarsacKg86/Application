@@ -16,23 +16,10 @@ body {
     font-family: 'Alegreya SC', serif;
 }
 
-.search {
-    
-    position: ;
-   
-    font-family: 'Alegreya SC', serif;
-}
-
-/* .searchCriteria {
-    background-position: center;
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-} */
-
 
 .searchBar {
     position: absolute;
-    top: 10%;
+    top: 20%;
     transform: translate('50%, -50%');
     background: #292c30;
     height:50px;
