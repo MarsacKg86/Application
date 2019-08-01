@@ -1,0 +1,11 @@
+INSERT into address (HouseNumber, StreetName, City, State, ZipCode, Price, SchoolRank, InteriorRank, ExteriorRank,BestQuality, WorstQuality) VALUE (5671, 'N Emporia Street', 'Denver', 'CO', 80238, 573156, 7, 7, 7, 'Price', 'SchoolRank');
+
+INSERT into address (HouseNumber, StreetName, City, State, ZipCode, Price, SchoolRank, InteriorRank, ExteriorRank,BestQuality, WorstQuality) VALUE (8428, 'E 54th Place', 'Denver', 'CO', 80238, 579000, 9, 5, 7, 'SchoolRank', 'Interior Blah');
+
+INSERT into address (HouseNumber, StreetName, City, State, ZipCode, Price, SchoolRank, InteriorRank, ExteriorRank,BestQuality, WorstQuality) VALUE (11002, 'E 28th Place', 'Denver', 'CO', 80238, 675000, 8, 8, 6, 'Walkability', 'Backyard');
+
+INSERT into address (HouseNumber, StreetName, City, State, ZipCode, Price, SchoolRank, InteriorRank, ExteriorRank,BestQuality, WorstQuality) VALUE (4942, 'Willow Street', 'Denver', 'CO', 80238, 569500, 9, 6, 9, 'Exerior', 'Interior');
+
+ INSERT into address (HouseNumber, StreetName, City, State, ZipCode, Price, SchoolRank, InteriorRank, ExteriorRank, BestQuality, WorstQuality) VALUE (771, 'Leyden Street', 'Denver', 'CO', 80220, 750000, 9, 9, 7, 'Everything', 'Price');
+
+INSERT into address (HouseNumber, StreetName, City, State, ZipCode, Price, SchoolRank, InteriorRank, ExteriorRank,BestQuality) VALUE (8242, 'E 55th Place', 'Denver', 'CO', 80238, 648000, 9, 4, 6, 'SchoolRank'); 

@@ -15,10 +15,23 @@ btn.addEventListener("click", function(){
     console.log(addresses);
 });
 
+// function getUrlParameterByName(name, url) {
+//     if(!url) url - window.location.href; 
+//   name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+//   var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+//   var results = regex.exec(location.search);
+//   if(!results) return null;
+//   if(!results[2]) return '';
+//   return results === null ? '': decodeURIComponent(results[2].replace(/\+/g, ' '));
+  
+// };
+
+// var username = getUrlParameterByName('username');
+//   document.getElementsById('welcomeUser').innerHTML ='Welcome' + username;
+
+
+ 
 
 
 
-
-
-
-
+    

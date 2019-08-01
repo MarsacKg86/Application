@@ -12,26 +12,51 @@
 
 <body>
     <nav>
-        <div class="nav">
-            <thead>Navigation</thead>
-            <table>
-                <tr>
-                <th><a href="user.html">Login</a></th>
-                <th><a href="listHouses.html">Available Houses</a></th>
-                <th><a href="search.html">Search</a></th>
-                </tr>
-                
-        </table>
-        </div> 
-        </nav>
-    <h1>Welcome To Your Page</h1>
-    <p style="font-size: 20px; font-variant: small-caps;">Click to View Your Favorite Houses</p>
-    <button type="button" id="btn" style="position: absolute; top: 12%;">Favorites</button>
-    <ul id="addressList" style="position: absolute; top: 15%; font-size: 18px; font-family: 'Permanent Marker', cursive;"></ul>
-    
-  
+        <ul>
+          <li><a href="user.html">Login</a></li>
+          <li><a href="listHouses.html">Available Houses</a></li>
+          <li><a href="search.html">Search</a></li>
+        </ul>
+    </nav>
 
+    <div id ='welcomeUser'></div>
+    <p style="font-size: 20px; font-variant: small-caps; position: absolute; top: 15%; ">Click to View Your Favorite Houses</p>
+    <button type="button" id="btn" style="position: absolute; top: 20%;">Favorites</button>
+    <ul id="addressList" style="position: absolute; top: 23%; font-size: 18px; font-family: 'Permanent Marker', cursive;"></ul>
+    
+<script>
+  var btn = document.getElementById("btn");
+  var list = document.getElementById("addressList");
+
+  var addresses = ['614 Mockingbird Lane', '88 James Drive', '112 13th Street'];
+
+  btn.addEventListener("click", function(){
+    for (i=0; i<addresses.length; i++){
+        var node = document.createElement("LI");
+        var address = document.createTextNode(addresses[i]);
+        node.appendChild(address);
+        list.appendChild(node);  
+    }
+    console.log(addresses);
+});
+
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+
+var username = getParameterByName('username');
+
+document.getElementById("welcomeUser").innerHTML = username;
+
+</script>
+       
 </body> 
-<script src ="main.js"></script>
+<!-- <script src ="main.js"></script> -->
 
 </html>
