@@ -15,7 +15,7 @@ var server = http.createServer(function(req, res){
         db.getResults().then(function(result){
             res.write(result);
             res.end();
-        }).catch(console.error)
+        }).catch(console.log(error));
     }
  
 });

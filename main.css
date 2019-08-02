@@ -1,15 +1,20 @@
 body {
-    background: #afadb3;
+    background: #f8f6fa;
     font-family: 'Alegreya SC', serif;
-    color:#47424f;
-    text-shadow: 1px 1px black;
+    color:#2a292b;
+    
 }
+.userHTMLH1Tag{
+    transform: translate('50%', '-50%');
+    position: relative;
+    left: 29px;
 
+}
 
 .createUserPassword{
     position: absolute;
     transform: translate('50%, -50%');
-    background:#292c30;
+    background:#cddbee;
     height:50px;
     border-radius: 50px;
     padding: 25px;
@@ -21,7 +26,7 @@ body {
     position: absolute;
     top: 20%;
     transform: translate('50%, -50%');
-    background: #292c30;
+    background: #cddbee;
     height:50px;
     border-radius: 50px;
     padding: 25px;
@@ -32,7 +37,7 @@ body {
 nav{
     
     transform: translate('50%, -50%');
-    background:#292c30;
+    background:#cddbee;
     height:40px;
     border-radius: 45px;
     padding-bottom: 40px;

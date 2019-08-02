@@ -15,6 +15,21 @@ btn.addEventListener("click", function(){
     console.log(addresses);
 });
 
+function ajaxRequest () {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+         var resp = this.responseText;
+
+         console.log(JSON.parse(resp));
+      }
+    };
+    
+    xhttp.open("GET", "http://localhost:8080/listHouses", true);
+    
+    xhttp.send();
+  };
+
 // function getUrlParameterByName(name, url) {
 //     if(!url) url - window.location.href; 
 //   name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
