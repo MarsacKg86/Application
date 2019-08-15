@@ -9,7 +9,7 @@ var mysql = require('mysql');
 var connect = mysql.createConnection({
     host:"localhost",
     user: 'root',
-    password: 'root',
+    password: 'password',
     database: 'homeDB',
 });
 
@@ -17,7 +17,7 @@ var connect = mysql.createConnection({
 
 function getResults(){
     return new Promise((resolve, reject) => {
-        connect.query('SELECT * FROM homeDB', function (error, result){
+        connect.query('SELECT * FROM address', function (error, result){
             if (error) reject (error);
             resolve(JSON.stringify(result));
         })
